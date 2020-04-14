@@ -33,9 +33,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS { A0, A1, A2, A3, A4 }
 #define DIODE_DIRECTION COL2ROW
 
-#define BACKLIGHT_LEVELS 6
-#define BACKLIGHT_BREATHING
-#define BREATHING_PERIOD 6
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
@@ -49,11 +46,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LOCKING_RESYNC_ENABLE
 
 #define RGBLIGHT_ANIMATIONS
-
-#define WS2812_LED_N 20
-#define RGBLED_NUM WS2812_LED_N
-#define PORT_WS2812     GPIOB
-#define PIN_WS2812      15
+#define RGB_DI_PIN B15
+#define RGBLED_NUM 19
 #define WS2812_SPI SPID2
 #define USB_MAX_POWER_CONSUMPTION 500     // Limit device max power consumption.
 #define RGBSTRIP_CURRENT_LIMIT 300        // Strip current limit in mA.
