@@ -1,4 +1,4 @@
-# Practice 65
+# Practice 64
 
 A Blue Pill STM32F103C8T6-based 65% ANSI board.
 
